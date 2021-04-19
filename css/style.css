@@ -1,0 +1,20 @@
+body {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    color: red;
+}
+
+.container {
+    width: 300px;
+    height: 200px;
+    border: 1px solid blueviolet;
+    background-color: black;
+}
+
+.bar {
+    fill: blueviolet;
+}
