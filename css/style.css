@@ -9,6 +9,13 @@ header {
     height: 900px;
 }
 
+h1,
+h2,
+h3,
+p {
+    padding: 15px;
+}
+
 p {
     color: red;
 }

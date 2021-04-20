@@ -10,7 +10,7 @@ const xScale = d3.scaleBand().domain(DUMMY_DATA.map(dataPoint => dataPoint.regio
 const yScale = d3.scaleLinear().domain([0, 30]).range([200, 0]);
 
 
-const container = d3.select('svg')
+const container = d3.select('.svg')
     .classed('container', true);
 
 const bars = container
