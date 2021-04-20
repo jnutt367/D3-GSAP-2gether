@@ -2,6 +2,11 @@ body {
     display: grid;
     align-items: center;
     justify-content: center;
+    margin: 0 50px;
+}
+
+header {
+    height: 900px;
 }
 
 p {
@@ -17,4 +22,9 @@ p {
 
 .bar {
     fill: blueviolet;
+}
+
+footer {
+    background-color: black;
+    height: 500px;
 }
