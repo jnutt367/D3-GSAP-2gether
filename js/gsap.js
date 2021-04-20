@@ -1,5 +1,7 @@
 gsap.registerPlugin(ScrollTrigger);
 
+gsap.fromTo('h3', { x: 200, opacity: 0 }, { duration: 4, x: 200, opacity: 1, color: "blue", fontSize: "2em", ease: "elastic" });
+
 let tl = gsap.timeline({
         scrollTrigger: {
             trigger: "p",
@@ -14,4 +16,5 @@ let tl = gsap.timeline({
     .to('body', { duration: 2, backgroundImage: "linear-gradient(red, blue, green)" })
     .to('body', { duration: 2, backgroundImage: "linear-gradient(#123, #432, #555)", backgroundSize: "contain" })
     .to('body', { duration: 2, backgroundImage: "radial-gradient(red, blue, green)", backgroundSize: "contain" })
-    .to('h1', { color: "white", fontSize: "50" })
+    .to('h1', { color: "white", fontSize: "35", marginTop: "400" })
+    .to('h2', { duration: 5, color: "aliceblue" })
